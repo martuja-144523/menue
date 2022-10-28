@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+}
+    nav{
+        box-shadow: 0 0 15px -5px black;
+    }
+    ul li a{
+        list-style-type: none;
+        color: rgb(230, 225, 225);
+        text-decoration: none;
+    }
+    ul li{
+        text-transform: uppercase;
+        padding: 20px;
+        display: inline-block;
+        background: rgb(149, 122, 71);
+        position: relative;
+        transition: .7s;
+    }
+    ul li:hover{
+        background:rgb(90, 39, 39) ;
+        color: rgb(200, 35, 26);
+    }
+    ul li ul{
+        position: absolute;
+        left: 0%;
+        top: 100%;
+        display: none;
+    }
+    ul li:hover ul{
+        display: block;
+    }

@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    nav{
+        box-shadow: 0 0 10px -5px black ;
+    }
+    ul li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        font-size: 20px;
+        background: rgb(235, 123, 54);
+        color: rgb(240, 239, 239);
+        padding: 10px;
+        display: inline-block;
+        transition: .7s;
+        
+    }
+      ul li{
+        list-style-type: none;
+        display: inline-block;
+        position: relative;
+    }
+    
+    ul li:hover > a{
+        background: rgb(41, 165, 196);
+        color: yellow;
+        height:47px; 
+        width: 120px; 
+        
+    }  
+    ul li ul{
+       /* background: black; */
+       position: absolute;
+       display: none;
+       left: 0%;
+       top: 100%;
+    }
+    ul li:hover ul{
+        display: block;
+    }
+    ul li ul li{
+        display: block;
+    }
+
+    
+
+ /* .parents{
+    width: 700px;
+    height: 700px;
+    background: rgb(169, 54, 13);
+    margin: auto;
+    position: relative;
+}
+.child{
+    width: 100px;
+    height: 100px;
+}
+.child-1{
+    background: rgb(127, 103, 58);
+    position: absolute;
+    right: 0;
+    bottom:  0;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    transition: 0.8s;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.child-1:hover{
+    width: 200px;
+    height: 150px;
+    background: bisque;
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    text-decoration-color: rgb(160, 145, 145);
+    text-transform: lowercase;
+}
+.child-2{
+    background: rgb(97, 202, 6);
+}
+.child-3{
+    background: rgb(97, 9, 174);
+}
+.child-4{
+    background: rgb(191, 14, 141);
+}
+.child-5{
+    background: rgb(220, 17, 81);
+}
+.child-6{
+    background: rgb(29, 187, 219);
+}  */
